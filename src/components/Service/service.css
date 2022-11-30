@@ -24,14 +24,28 @@
     cursor: pointer;
 }
 
-.list-of-service p {
-
-}
-
 .services:hover{
     box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
     -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
     -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
     transition-duration: 0.3s;
     border-left: 3px solid purple;
+}
+
+.service-number {
+    border-radius: 90px;
+    height: 50px;
+    width: 50px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+.service-number p {
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
 }

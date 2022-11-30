@@ -9,7 +9,7 @@ const Home = () => {
                 <h1>
                     <Typewriter
                         options={{
-                            strings: ['Hello', 'World'],
+                            strings: ['Legend', 'Of', 'Elements'],
                             autoStart: true,
                             loop: true,
                         }}

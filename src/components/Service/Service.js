@@ -61,6 +61,16 @@ const Service = () => {
         },
     ]
 
+    const colors = [
+        '#CD5C5C',
+        '#FF0000',
+        '#FFA500',
+        '#FFFF00',
+        '#808000',
+        '#008000',
+        '#800080',
+        '#0000FF',
+    ]
 
     return (
         <div className='container service-section'>
@@ -73,7 +83,7 @@ const Service = () => {
                     <>
                         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12" key={index}>
                             <div className="services">
-                                    <span className="service-number">
+                                    <span className="service-number" style={{backgroundColor:colors[index]}}>
                                         <p>{item.id}</p>
                                     </span>
                                 <div className="list-of-service">
