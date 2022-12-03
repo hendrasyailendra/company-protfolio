@@ -1,0 +1,68 @@
+.testimonial-section {
+  height: auto;
+}
+
+.content-card {
+  margin-top: 50px;
+  padding: 10px;
+  color: black;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+.content-card:hover {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  transition-duration: 1s;
+  background-color: crimson;
+  color: white;
+}
+
+.content-card img {
+  height: 80px;
+  width: 80px;
+  border-radius: 90px;
+  margin-top: -30px;
+  border: 3px solid white;
+}
+
+.name {
+  font-weight: 20px;
+  color: rgb(68, 47, 255);
+  font-size: 20px;
+}
+
+.load-more-button {
+  background-color: #004c06;
+  width: 15%;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  display: table;
+  justify-content: center;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.load-more-button:hover {
+  background-color: #10004c;
+  width: 15%;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  display: table;
+  justify-content: center;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
