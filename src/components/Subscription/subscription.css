@@ -1,0 +1,61 @@
+.subscription {
+  height: 300px;
+  color: white;
+  background-color: rgba(208, 19, 164, 0.571);
+  position: relative;
+  margin-top: 50px;
+}
+
+.subscription::before {
+  content: "";
+  background: url("https://images.pexels.com/photos/14417238/pexels-photo-14417238.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load")
+    no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.subscription-title h5 {
+  text-align: center;
+  padding: 20px;
+  color: chartreuse;
+  font-size: 30px;
+}
+
+.subscription-form input {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 0px;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.subscription-button p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: black;
+  padding: 10px;
+  margin-top: 10px;
+  width: 50%;
+  font-size: 20px;
+  color: greenyellow;
+  cursor: pointer;
+}
+
+.subscription-button p:hover {
+  border: 1px solid greenyellow;
+  transition-duration: 0.5s;
+  background-color: blueviolet;
+  color: blanchedalmond;
+}

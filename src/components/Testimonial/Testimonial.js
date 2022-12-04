@@ -4,6 +4,7 @@ import { data } from "./Testimonial.mock";
 
 const Testimonial = () => {
   const [showMore, setShowMore] = useState(6);
+  const [selectedIndex, setSelectedIndex] = useState();
 
   const loadMore = () => {
     setShowMore((prev) => prev + 3);
@@ -23,8 +24,15 @@ const Testimonial = () => {
       <div className="row">
         {data.slice(0, showMore).map((item, index) => {
           return (
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-              <div className="content-card">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
+              <div
+                className={
+                  index === selectedIndex
+                    ? "marked-content-card"
+                    : "content-card"
+                }
+                onClick={() => setSelectedIndex(index)}
+              >
                 <img src={item.img} alt="user" />
                 <p>{item.content}</p>
                 <p>
