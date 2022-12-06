@@ -81,15 +81,18 @@ const Service = () => {
       <div className="row">
         {serviceData.map((item, index) => (
           <>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12" key={index}>
-              <div className="services">
+            <div
+              className="col-xl-3 col-lg-4 col-md-6 col-sm-12 "
+              key={`wrapper-${index}`}
+            >
+              <div className="services" key={`service-${index}`}>
                 <span
                   className="service-number"
                   style={{ backgroundColor: colors[index] }}
                 >
                   <p>{item.id}</p>
                 </span>
-                <div className="list-of-service">
+                <div className="list-of-service" key={`service-list-${index}`}>
                   <p>
                     <FcOk size={20} style={{ margin: "5px" }} />
                     {item.service1}
