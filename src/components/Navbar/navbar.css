@@ -7,6 +7,8 @@
   top: 0;
   text-align: center;
   justify-content: right;
+  position: sticky;
+  z-index: 1;
 }
 
 .navbar-main ul {
@@ -24,4 +26,8 @@
 
 .navbar-main ul li:hover {
   color: yellow;
+}
+
+.navbar-scroll-main {
+  background-color: rgb(223, 10, 74);
 }
