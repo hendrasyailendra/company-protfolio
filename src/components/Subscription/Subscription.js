@@ -3,7 +3,7 @@ import "./subscription.css";
 
 const Subscription = () => {
   return (
-    <div className="container-fluid subscription">
+    <div className="container-fluid subscription" id="subscription">
       <div className="row">
         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
           <div className="subscription-title">
