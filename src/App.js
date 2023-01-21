@@ -8,6 +8,7 @@ import Subscription from "./components/Subscription/Subscription";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
+import Team from "./components/Team/Team";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Home />
       <About />
       <Service />
+      <Team />
       <Testimonial />
       <Subscription />
       <Footer />
