@@ -9,6 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 import Team from "./components/Team/Team";
+import Feedback from "./components/Feedback/Feedback";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Service />
       <Team />
       <Testimonial />
+      <Feedback />
       <Subscription />
       <Footer />
       <ScrollToTop

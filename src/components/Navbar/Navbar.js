@@ -42,6 +42,7 @@ const Navbar = () => {
         >
           <li className="nav-item">Testimonial</li>
         </Link>
+
         <Link to="feedback" spy={true} smooth={true} offset={-50} duration={10}>
           <li className="nav-item">Feedback</li>
         </Link>
