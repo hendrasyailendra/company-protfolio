@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import "./App.css";
 import Team from "./components/Team/Team";
 import Feedback from "./components/Feedback/Feedback";
+import Video from "./components/Video/video";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Home />
       <About />
       <Service />
+      <Video />
       <Team />
       <Testimonial />
       <Feedback />

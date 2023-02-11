@@ -1,5 +1,12 @@
 .testimonial-section {
   height: auto;
+  margin-top: 15px;
+}
+
+@media (max-width: 1000px) {
+  .testimonial-section {
+    margin-top: 15px;
+  }
 }
 
 .content-card {
@@ -38,7 +45,7 @@
 
 .load-more-button {
   background-color: #004c06;
-  width: 15%;
+  width: auto;
   padding: 10px;
   color: white;
   text-align: center;
@@ -53,7 +60,7 @@
 
 .load-more-button:hover {
   background-color: #10004c;
-  width: 15%;
+  width: auto;
   padding: 10px;
   color: white;
   text-align: center;

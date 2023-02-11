@@ -1,5 +1,12 @@
 .team-members {
   height: 1200px;
+  margin-top: 15px;
+}
+
+@media (max-width: 1000px) {
+  .team-members {
+    height: auto;
+  }
 }
 
 .team-members-item img {
