@@ -11,6 +11,7 @@ import "./App.css";
 import Team from "./components/Team/Team";
 import Feedback from "./components/Feedback/Feedback";
 import Video from "./components/Video/video";
+import Career from "./components/Career/Career";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Home />
       <About />
       <Service />
+      <Career />
       <Video />
       <Team />
       <Testimonial />
