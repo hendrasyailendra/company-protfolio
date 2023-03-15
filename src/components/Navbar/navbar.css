@@ -31,3 +31,9 @@
 .navbar-scroll-main {
   background-color: rgb(223, 10, 74);
 }
+
+@media (max-width: 980px) {
+  .navbar-main {
+    display: none;
+  }
+}
