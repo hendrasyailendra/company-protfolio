@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import { feedbackData } from "./Feedback.mock";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Rotate } from "react-reveal";
 
 const Feedback = () => {
   const settings = {
@@ -53,20 +54,22 @@ const Feedback = () => {
       <div className="feedback-slide">
         <Slider {...settings}>
           {feedbackData.map((item, index) => (
-            <div
-              className="col-xl-12 col-lg-12 col-md-12 col-sm-12"
-              key={`warpper-feedback-index-{index}`}
-            >
+            <Rotate clear>
               <div
-                className="card content-slider"
-                key={`feedback-index-{index}`}
+                className="col-xl-12 col-lg-12 col-md-12 col-sm-12"
+                key={`warpper-feedback-index-{index}`}
               >
-                <img src={item.img} alt="slider" className="image-slider" />
-                <p>{item.content}</p>
-                <h4>{item.name}</h4>
-                <p>{item.position}</p>
+                <div
+                  className="card content-slider"
+                  key={`feedback-index-{index}`}
+                >
+                  <img src={item.img} alt="slider" className="image-slider" />
+                  <p>{item.content}</p>
+                  <h4>{item.name}</h4>
+                  <p>{item.position}</p>
+                </div>
               </div>
-            </div>
+            </Rotate>
           ))}
         </Slider>
       </div>

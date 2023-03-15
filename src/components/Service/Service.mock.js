@@ -1,0 +1,58 @@
+export const serviceData = [
+  {
+    id: 1,
+    service1: "Web development",
+    service2: "Mobile app development",
+    service3: "UI/UX design",
+    service4: "Digital marketing",
+  },
+  {
+    id: 2,
+    service1: "Web development",
+    service2: "Mobile app development",
+    service3: "UI/UX design",
+    service4: "Digital marketing",
+  },
+  {
+    id: 3,
+    service1: "Web development",
+    service2: "Mobile app development",
+    service3: "UI/UX design",
+    service4: "Digital marketing",
+  },
+  {
+    id: 4,
+    service1: "Web development",
+    service2: "Mobile app development",
+    service3: "UI/UX design",
+    service4: "Digital marketing",
+  },
+  {
+    id: 5,
+    service1: "Web development",
+    service2: "Mobile app development",
+    service3: "UI/UX design",
+    service4: "Digital marketing",
+  },
+  {
+    id: 6,
+    service1: "Web development",
+    service2: "Mobile app development",
+    service3: "UI/UX design",
+    service4: "Digital marketing",
+  },
+  {
+    id: 7,
+    service1: "Web development",
+    service2: "Mobile app development",
+    service3: "UI/UX design",
+    service4: "Digital marketing",
+  },
+  {
+    id: 8,
+    service1: "Web development",
+    service2: "Mobile app development",
+    service3: "UI/UX design",
+    service4: "Digital marketing",
+  },
+];

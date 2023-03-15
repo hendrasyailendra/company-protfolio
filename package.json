@@ -11,6 +11,7 @@
     "react-icons": "^4.4.0",
     "react-paginate": "^8.1.4",
     "react-player": "^2.11.0",
+    "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.8",
     "react-scroll-to-top": "^3.0.0",
     "react-slick": "^0.29.0",
@@ -19,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

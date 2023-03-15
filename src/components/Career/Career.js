@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./career.css";
 import DataInfo from "./DataInfo";
 import Pagination from "../Pagination/Pagination";
+import { Fade } from "react-reveal";
 const Career = () => {
   const [data, setData] = useState([]);
 
@@ -31,14 +32,18 @@ const Career = () => {
       <div className="row">
         {data &&
           currentPageData.map((item, index) => (
-            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-              <DataInfo {...item} />
-            </div>
+            <Fade left>
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <DataInfo {...item} />
+              </div>
+            </Fade>
           ))}
       </div>
-      <div className="pagination-details">
-        <Pagination handlePageClick={handlePageClick} pageCount={pageCount} />
-      </div>
+      <Fade right>
+        <div className="pagination-details">
+          <Pagination handlePageClick={handlePageClick} pageCount={pageCount} />
+        </div>
+      </Fade>
     </div>
   );
 };
