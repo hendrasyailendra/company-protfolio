@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "./navbarMobileView.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-scroll";
+import Switch from "react-switch";
 
-const NavbarMobileView = () => {
+const NavbarMobileView = ({ theme, handleChangeTheme }) => {
   const [open, setOpen] = useState(false);
   const handleNavBarOpen = () => {
     setOpen(!open);
@@ -97,6 +98,12 @@ const NavbarMobileView = () => {
             >
               <li className="nav-item">Subscription</li>
             </Link>
+            <li>
+              <Switch
+                onChange={handleChangeTheme}
+                checked={theme === "light"}
+              />
+            </li>
           </ul>
         </div>
       ) : null}

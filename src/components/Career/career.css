@@ -2,6 +2,10 @@
   height: auto;
 }
 
+#dark .career {
+  color: white;
+}
+
 .post-card {
   box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
   -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
@@ -12,6 +16,12 @@
   margin-top: 10px;
 }
 
+#dark .post-card {
+  background-color: #38004c;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
 .post-card:hover {
   box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
@@ -35,12 +45,15 @@
   border-left: 3px solid purple;
 }
 
-.open h6 {
-  color: darkgoldenrod;
+#dark .post-card {
+  background-color: #38004c;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
 
-.close {
-  color: black;
+.open h6 {
+  color: darkgoldenrod;
 }
 
 .pagination-details {
@@ -51,4 +64,17 @@
 
   height: auto;
   margin-top: 10px;
+}
+
+#dark .pagination-details {
+  background-color: #38004c;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+
+  color: white;
+}
+
+#dark .pagination-details a {
+  color: white;
 }

@@ -3,6 +3,9 @@
   margin-top: 15px;
 }
 
+#dark .testimonial-section {
+  color: white;
+}
 @media (max-width: 1000px) {
   .testimonial-section {
     margin-top: 15px;
@@ -19,7 +22,13 @@
   cursor: pointer;
   background-color: antiquewhite;
 }
-
+#dark .content-card {
+  background-color: #38004c;
+  color: white;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
 .content-card:hover {
   box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
@@ -28,7 +37,13 @@
   background-color: crimson;
   color: white;
 }
-
+#dark .content-card:hover {
+  background-color: crimson;
+  color: white;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
 .content-card img {
   height: 80px;
   width: 80px;
