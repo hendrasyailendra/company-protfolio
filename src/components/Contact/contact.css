@@ -1,0 +1,89 @@
+.contact-section {
+  height: auto;
+  margin-top: 40px;
+  position: relative;
+}
+
+#dark .contact-section {
+  color: white;
+  background-color: #38004c;
+}
+
+.image-class img {
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.image-class {
+  height: 100%;
+}
+.image-class img.image-contact {
+  object-fit: cover;
+}
+.contact-form-design {
+  padding: 30px;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
+#dark .contact-form-design {
+  background-color: #38004c;
+  color: white;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
+.contact-form input {
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#dark .contact-form input {
+  background-color: #38004c;
+}
+.contact-form textarea {
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#dark .contact-form textarea {
+  background-color: #38004c;
+}
+.options {
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#dark .options {
+  background-color: #38004c;
+  color: white;
+}
+.button-submit p {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: rgb(32, 14, 5);
+  color: greenyellow;
+  padding: 10px;
+  width: 50%;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.button-submit p:hover {
+  background-color: rgb(226, 7, 211);
+  color: white;
+  transition-duration: 1s;
+}
+@media (max-width: 979px) {
+  .image-class img {
+    display: none;
+  }
+}

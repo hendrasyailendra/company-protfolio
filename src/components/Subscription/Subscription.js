@@ -1,7 +1,7 @@
 import React from "react";
 import "./subscription.css";
 import { Fade } from "react-reveal";
-
+import { IoIosSend } from "react-icons/io";
 const Subscription = () => {
   return (
     <div className="container-fluid subscription" id="subscription">
@@ -15,7 +15,9 @@ const Subscription = () => {
               <input type="text" placeholder="Your E-mail" />
             </div>
             <div className="subscription-button">
-              <p>subscribe</p>
+              <p>
+                subscribe <IoIosSend size={20} />
+              </p>
             </div>
           </div>
         </Fade>
