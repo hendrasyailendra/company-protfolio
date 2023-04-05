@@ -11,7 +11,9 @@ const Home = ({ theme, handleChangeTheme }) => {
         {theme === "light" ? (
           <BsMoonStarsFill size={40} />
         ) : (
-          <BsFillSunFill size={40} />
+          <p className="theme-icon">
+            <BsFillSunFill size={40} />
+          </p>
         )}
       </div>
       <Fade left>
